@@ -1,0 +1,93 @@
+/* 
+    - Adding the text shadow helped with the visibility of the text.
+    - h1, h2, h3 are called element selectors. 
+    - The container div we used is to create a flex thing 
+        that is explained in the notes. 
+*/
+
+
+body{
+    font-family: 'Happy Monkey', cursive;
+    text-align: center;
+    background-color: #a2d2ff;
+    color: #ffffff;
+}
+
+#nick{
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+h1, h2, h3, h4, p{
+    text-shadow: 0px 0px 1px black;
+}
+
+#age{
+    padding: 5px 10px;
+    border-radius: 10%;
+    margin: 5px 0 10px 0;
+    background-color: #EFB0C9;
+}
+
+#date{
+    padding: 10px;
+    border-radius: 10%;
+    margin: 0;
+    background-color: #EFB0C9;
+}
+
+.gift-section{
+    margin-top: 50px;
+}
+
+.title{
+    margin-bottom: 0;
+}
+
+.hover{
+    margin-top: 8px;
+}
+
+.image{
+    background-image: url("images/gift-cover.avif");
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    border: 8px solid #EFB0C9;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+#happy-gif:hover{
+    background-image: url("images/laughing.webp");
+    display: cover;
+}
+
+#hot-gif:hover{
+    background-image: url("images/hot.webp");
+    display: cover;
+}
+
+#doctor-gif:hover{
+    background-image: url("images/doctor.webp");
+    display: cover;
+}
+
+#badass-gif:hover{
+    background-image: url("images/badass.webp");
+    display: cover;
+}
+
+#love-gif:hover{
+    background-image: url("images/love.webp");
+    display: cover;
+}
+
